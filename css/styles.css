@@ -5,15 +5,15 @@ body {
     height: 100vh;
     background-image: url('../images/ryu.gif') , url('../images/pikachu.gif');
     background-repeat: no-repeat , no-repeat;
-    background-position: -70px 64vh , bottom right;
+    background-position: -70px 125% , bottom right;
     background-size: 300px 380px , 100px 100px;
 }
 
 header {
     background-image: url('../images/mushroom.gif') , url('../images/yoshie.gif') , url('../images/pixel-bgrnd.png') ;
     background-repeat: no-repeat , no-repeat , repeat-x;
-    background-position: bottom left , bottom right, center center;
-    background-size: 100px 100px , 100px 100px , cover;
+    background-position: bottom left , 100% 110%, center center;
+    background-size: 80px 80px , 100px 100px , contain;
 }
 
 h1 , h2 {
@@ -74,6 +74,19 @@ input[type=number] {
 }
 
 
+@media screen and (max-width: 785px){
+    h1{
+        font-size: 2em;
+    }
+}
+@media screen and (max-width: 520px){
+    h1{
+        font-size: 1.5em;
+    }
+    h2 , span {
+        font-size: 0.6em;
+    }
+}
 
 
 
