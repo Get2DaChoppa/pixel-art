@@ -3,16 +3,17 @@
 body {
     text-align: center;
     height: 100vh;
-    background-image: url('../images/ryu.gif') , url('../images/pikachu.gif');
+    background-color: black;
+    background-image: url('../images/mario.gif') , url('../images/pikachu.gif');
     background-repeat: no-repeat , no-repeat;
-    background-position: -70px 122% , bottom right;
-    background-size: 300px 380px , 100px 100px;
+    background-position: bottom left , bottom right;
+    background-size: 100px 100px , 100px 100px;
 }
 
 header {
     background-image: url('../images/mushroom.gif') , url('../images/yoshie.gif') , url('../images/pixel-bgrnd.png') ;
     background-repeat: no-repeat , no-repeat , repeat-x;
-    background-position: bottom left , 100% 110%, center center;
+    background-position: bottom left , 100% 105%, center center;
     background-size: 80px 80px , 100px 100px , contain;
 }
 
@@ -86,7 +87,7 @@ input[type=number] {
     }
 }
 
-@media screen and (max-width: 520px){
+@media screen and (max-width: 550px){
     h1{
         font-size: 1.5em;
     }
